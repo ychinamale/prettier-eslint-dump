@@ -1,0 +1,13 @@
+dist/
+node_modules/
+ios/
+android/
+.expo/
+
+.eslintrc.json
+.prettierrc.json
+
+app.json
+babel.config.js
+jsconfig.json
+metro.config.js

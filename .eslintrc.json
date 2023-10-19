@@ -1,0 +1,15 @@
+{
+    "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+    "rules": {
+        "space-before-function-paren": ["error", "always"]
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015
+    }
+}

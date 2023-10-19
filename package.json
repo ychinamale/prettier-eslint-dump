@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "test:eslint": "echo \"\\033[33mRunning eslint check\" &&  eslint .",
+        "code:format": "prettier . --write && yarn test:eslint --fix"
+    },
+    "devDependencies": {
+        "eslint": "^8.51.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-config-universe": "^12.0.0",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "prettier": "^3.0.3"
+    }
+}
